@@ -5,7 +5,7 @@
 We had a data set of 1200 images,the model has been trained with 840 images with pothole label, tested with 240 images with pothole label, validated with 120 images with pothole label. The accuracy of the model will increase by traing the model with larger size dataset.
 
 ## Deep Learning with Keras:
-This is the code repository for Deep Learning with Keras, published by Packt. It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for Deep Learning with Keras, published by Vigneshwar.K. It contains all the supporting project files necessary to work for pothole detection in a simple manner.
 
 ## Instructions and Navigation:
 ### There are seperate function for all process
