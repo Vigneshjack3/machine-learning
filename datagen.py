@@ -15,12 +15,12 @@ training_data = []
 IMG_SIZE = 250
 
 def create_training_data():
-    for category in CATEGORIES:  # do dogs and cats
+    for category in CATEGORIES:  # do pothole and nopothole
 
-        path = os.path.join(DATADIR,category)  # create path to dogs and cats
-        class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=dog 1=cat
+        path = os.path.join(DATADIR,category)  # create path to pothole and nopothole
+        class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=pothole 1=nopothole
 
-        for img in tqdm(os.listdir(path)):  # iterate over each image per dogs and cats
+        for img in tqdm(os.listdir(path)):  # iterate over each image per pothole and no 
             try:
                 img_array = cv2.imread(os.path.join(path,img) ,cv2.IMREAD_GRAYSCALE)  # convert to array
                 new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))  # resize to normalize data size
