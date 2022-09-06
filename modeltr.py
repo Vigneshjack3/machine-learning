@@ -5,7 +5,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from tensorflow.keras.layers import Conv2D, MaxPooling2D
 
-import pickle
+import pickle 
 
 pickle_in = open("X.pickle","rb")
 X = pickle.load(pickle_in)
@@ -30,7 +30,7 @@ model.add(Flatten())
 model.add(Dense(64))
 
 model.add(Dense(1))
-model.add(Activation('sigmoid'))
+model.add(Activation('sigmoid')) # do sigmoid
 
 model.compile(loss='binary_crossentropy',
               optimizer='adam',

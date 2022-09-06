@@ -1,5 +1,5 @@
 #
-# Machine-learning 
+# Machine-learning for Potohole
 
 ## Pothole detection model 
 We had a data set of 1200 images,the model has been trained with 840 images with pothole label, tested with 240 images with pothole label, validated with 120 images with pothole label. The accuracy of the model will increase by traing the model with larger size dataset.

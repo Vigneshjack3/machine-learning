@@ -15,7 +15,7 @@ training_data = []
 IMG_SIZE = 250
 
 def create_training_data():
-    for category in CATEGORIES:  # do pothole and nopothole
+    for category in CATEGORIES:  # do pothole and no-pothole
 
         path = os.path.join(DATADIR,category)  # create path to pothole and nopothole
         class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=pothole 1=nopothole

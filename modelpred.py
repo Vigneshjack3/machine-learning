@@ -4,7 +4,7 @@ import tensorflow as tf
 CATEGORIES = ["Pothole", "NoPothole"]
 
 
-def prepare(filepath):
+def prepare(filepath): # do filepath
     IMG_SIZE = 250  
     img_array = cv2.imread(filepath, cv2.IMREAD_GRAYSCALE)
     new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))

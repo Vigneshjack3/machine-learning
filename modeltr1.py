@@ -14,7 +14,7 @@ y = pickle.load(pickle_in)
 X = X/255.0
 
 dense_layers = [0]
-layer_sizes = [64]
+layer_sizes = [64] # layer size
 conv_layers = [3]
 
 for dense_layer in dense_layers:
